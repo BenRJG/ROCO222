@@ -50,3 +50,27 @@ Once git has been initialised, a name and email needs to be set using 'git confi
 So in my case it'd be 'git config user.name "Ben Gordon' and 'git config user.name `ben.gordon@students.plymouth.ac.uk`'
 
 Then the journal file can be added to the git folder using 'git add journal.md', then create a new commit using 'git commit'. When doing this a short (usually less than 72 characters) summary of the changes should be typed on what has been added/changed to the file.
+
+# Hacking the Robot
+After browsing round many websites, we finally figured out how to hack the robot and make it talk!
+
+## Connecting to chapman
+### Finding the IP
+Firstly we had to connect to the chapman robot.
+
+To do this we first went to chapman.local in the web browser. This brought us to a configuration page for chapman.
+
+From this we could find the robot's IP address by going to the **Network Settings** and clicking on **Wired**. This showed us that the IP was **192.167.0.184**.
+
+### Connecting
+Once we had the IP, we could then connect to chapman through the terminal by typing `ssh nao@192.167.0.184`. This connects us to the robot to be able to navigate files and use python to control the speech.
+
+## Making Chapman talk
+To make him talk was a simple task. first we typed `python` into the console, which opened a python console to input code.
+
+Then the following commands were entered:
+* `from naoqi import ALProxy`
+* `tts = ALProxy("ALTextToSpeech", "localhost", 9559)` - this enables the text to speach and assigns
+.. it `tts`
+* finally Chapman can be made to say anything by inputing `tts.say("Input Text Here")`
+
