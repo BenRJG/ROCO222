@@ -1,10 +1,10 @@
-#What is Markdown?
+# What is Markdown?
 Markdown is basically a way to create a text document, then edit and styalize it using syntax for display on the web.
 For example using '*Hello*' in the text editor will look like *Hello* on the web.
 
 This allows for the text to be edited by the created in any way desired without having to worry about selecting fonts or adding titles.
 
-##Key Syntax
+## Key Syntax
 * '*Italic*' or '_Italic_' = *Italic*
 * '**Bold**' or '__Bold__' = **Bold**
 * '#Header' will create a header like the top of the page
@@ -29,7 +29,7 @@ This allows for the text to be edited by the created in any way desired without 
 	- Three
 	- Four
 
-#Using the Terminal
+# Using the Terminal
 * 'ls' shows the availabale folders within the currently selected directory.
 * 'cd /tmp' this takes the user to the temporary directory of '/tmp'
 * 'cd $HOME' takes us aback to the Home directory. Using the $ at the start uses the HOME as a representative of something else, in this case '/home/student'
@@ -43,7 +43,7 @@ This allows for the text to be edited by the created in any way desired without 
 * 'rm -rf'
 * 'cat /proc/cpuinfo' displays the text contents of the file 'cpuinfo'
 
-#Using Git
+# Using Git
 Git is used to track the changes within a particular file. Firstly the '.git/' file needs to be created using 'git init'. From here on this can be used to log the changes within a given file.
 
 Once git has been initialised, a name and email needs to be set using 'git config user.name "Firstname Surname"' and 'git config user.email "email"
