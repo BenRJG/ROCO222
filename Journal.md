@@ -47,6 +47,6 @@ This allows for the text to be edited by the created in any way desired without 
 Git is used to track the changes within a particular file. Firstly the '.git/' file needs to be created using 'git init'. From here on this can be used to log the changes within a given file.
 
 Once git has been initialised, a name and email needs to be set using 'git config user.name "Firstname Surname"' and 'git config user.email "email"
-So in my case it'd be 'git config user.name "Ben Gordon' and 'git config user.name "ben.gordon@students.plymouth.ac.uk'
+So in my case it'd be 'git config user.name "Ben Gordon' and 'git config user.name `ben.gordon@students.plymouth.ac.uk`'
 
 Then the journal file can be added to the git folder using 'git add journal.md', then create a new commit using 'git commit'. When doing this a short (usually less than 72 characters) summary of the changes should be typed on what has been added/changed to the file.
