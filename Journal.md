@@ -74,3 +74,48 @@ Then the following commands were entered:
 .. it `tts`
 * finally Chapman can be made to say anything by inputing `tts.say("Input Text Here")`
 
+# Building a DC motor
+## Part I - Building a brushed DC motor
+The aim of this part is to create a DC motor. For this we have:
+* Cork
+* Copper Tape
+* Paper Clips
+* 10m Copper Wire
+* 2 nails
+
+### Step 1 - Building the commutator
+The commutator is the moving part of the motor that will rotate within the magnetic field. This was started by placing copper
+tape on opposite sides of the cork, ensuring to leave a gab between each strip. This is needed as the tape will later be connected
+to two ends of the copper wire, and will be used to reverse the current.
+Electrical tape was then used to hold it in place.
+
+### Step 2 - Support Shaft
+A support shaft for the commutator was made using two nails placed into the two ends of the cork. This will allow the commutator
+to move freely when placed on a support.
+
+### Step 3 - Winding the armature coil
+This was the step that took the longest! A coil was wraped lengthways around the cork forming a coil.
+It was recomended for this that the coil had 60 turns minimum and we managed aroudn 139 turns (give or take 2 or 3 due to the
+monotonus of counting the turns whilst wrapping).
+Both ends of the wire were left free at the top (end with copper tape), then each end was soldered onto one of the two pieces of
+copper tape. This is how the current will flow through the coil.
+Due to the enamal on the copper wire preventing elctricity from conduction through it, sandpaper was needed to sand it off
+the ends before soldering.
+
+The resistance of the coild was measured at =~7 ohms.
+
+### Step 4 - Building the shaft support & magnet brackets
+The shaft support was made by using two paper clips, and stretching out one end, and curling it round into a small loop as shown
+in the image. This will later create an ideal support for the twon nails used as a support shaft.
+
+The magnet bracket was made by simply bending the paper clip into an L-shape.
+
+### Step 5 - Assembly
+Firstly the wooden base needed to be evenly devided horizontally and vertically (which we didn't need to do as it was already
+done). This allowed the paper clips to be equally fastened.
+
+The two support paper clips were screwed into the board lengthways along the board. The commutator could then be rested between
+these.
+The two magnet brackets were attached width ways, at a 90° to the commutator. Two of each of the magnets were then put onto the
+brackets, which could support themselves due to their magnetic strength. These were attached so that all the magnets were in the
+same direction and attracting to one another.
