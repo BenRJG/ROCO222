@@ -87,28 +87,49 @@ The aim of this part is to create a DC motor. For this we have:
 The commutator is the moving part of the motor that will rotate within the magnetic field. This was started by placing copper
 tape on opposite sides of the cork, ensuring to leave a gab between each strip. This is needed as the tape will later be connected
 to two ends of the copper wire, and will be used to reverse the current.
-Electrical tape was then used to hold it in place.
+
+_The image below shows the commutator with 1 long strip of copper tape rather than 2 pieces of tape before it was created_
+![Step 1 Image][Image1]
+
+[Image1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_092122.jpg "Commutator with copper tape"
 
 ### Step 2 - Support Shaft
 A support shaft for the commutator was made using two nails placed into the two ends of the cork. This will allow the commutator
 to move freely when placed on a support.
+![Step 2 Image 1][Image2]
+
+[Image2]: https://github.com/NodrogJRB/ROCO222/commit/867ef6f2d274338247e842fc8fdd3f470fddd7d8
+
+Tape was then added around the copper tape to better hold it in place:
+![Step 2 Image 2][Image 3]
+
+[Image3]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_093243.jpg
 
 ### Step 3 - Winding the armature coil
 This was the step that took the longest! A coil was wraped lengthways around the cork forming a coil.
 It was recomended for this that the coil had 60 turns minimum and we managed aroudn 139 turns (give or take 2 or 3 due to the
 monotonus of counting the turns whilst wrapping).
+![Step 3 Image 1][Image4]
+
 Both ends of the wire were left free at the top (end with copper tape), then each end was soldered onto one of the two pieces of
 copper tape. This is how the current will flow through the coil.
 Due to the enamal on the copper wire preventing elctricity from conduction through it, sandpaper was needed to sand it off
 the ends before soldering.
 
 The resistance of the coild was measured at =~7 ohms.
+![Step 3 Image 2][Image5]
+
+[Image4]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_100120.jpg
+[Image5]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_101433.jpg
 
 ### Step 4 - Building the shaft support & magnet brackets
 The shaft support was made by using two paper clips, and stretching out one end, and curling it round into a small loop as shown
 in the image. This will later create an ideal support for the twon nails used as a support shaft.
 
 The magnet bracket was made by simply bending the paper clip into an L-shape.
+![Step 4 Image][Image6]
+
+[Image6]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_101714.jpg
 
 ### Step 5 - Assembly
 Firstly the wooden base needed to be evenly devided horizontally and vertically (which we didn't need to do as it was already
@@ -119,3 +140,6 @@ these.
 The two magnet brackets were attached width ways, at a 90° to the commutator. Two of each of the magnets were then put onto the
 brackets, which could support themselves due to their magnetic strength. These were attached so that all the magnets were in the
 same direction and attracting to one another.
+![Step 5 Image][Image7]
+
+[Image7]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_102626.jpg
