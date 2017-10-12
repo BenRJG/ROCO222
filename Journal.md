@@ -15,6 +15,9 @@
 		* [Step 3 - Winding the armature coil](#i-step-3)
 		* [Step 4 - Building the shaft support & magnet brackets](#i-step-4)
 		* [Step 5 - Assembly](#i-step-5)
+	* [Part II - Testing the Motor](#part-ii)
+		* [Step 1 - Finish the motor](#ii-step-1)
+		* [Step 2 - Test the motor](#ii-step-2)
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -179,11 +182,13 @@ limits the current a small amount and therefore has the potential to overheat.
 ### Step 2 - Test the motor<a name = "ii-step-2>
 When testing the motor, we did manage to get the commutator to rotate. However as the wires had thin ends, they were prone to getting
 caught on the copper wire and on the copper tape. This therefore would occasionally make the motor stop functioning.
+
 [![Wires for Brushes](https://i.ytimg.com/vi/h_XL3oUzkJ0/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAhPxmyG7wNc13GnRAhXZp_5Zwszw)](https://youtu.be/h_XL3oUzkJ0)
 
 To combat this we decided to use copper tape instead, as not only were they more flexible and therefore less likely to catch on
 anything, they also have a large surface area, therefore increasing the contact surface area. Using this proved to be much more
 efficient.
+
 [![Wires for Brushes](https://i.ytimg.com/vi/ZZyAr5DxDUE/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC70ZVwAxRvrgzwBlnllurMBPzigQ)](https://youtu.be/ZZyAr5DxDUE)
 
 It can also be seen from the video above that the higher the voltage, the higher the RPM of the motor.
@@ -191,7 +196,9 @@ It can also be seen from the video above that the higher the voltage, the higher
 After we got the motor working, we then tested how the motor acted when one of the magnets was rotated the opposite way, therefore
 repelling each other. This seemed to create a conflict with the motor, and caused it to vibrate viciously as it rapidly tried to
 rotate both ways at the same time.
+
 [![Wires for Brushes](https://i.ytimg.com/vi/hRVDDwe9pTM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAehmlFknGsCWHCK0PS9kWYAhlAIg)](https://youtu.be/hRVDDwe9pTM)
 
 When the motor was functioning, it could be seen that on the powersupply both the current *and* the voltage were fluctuating:
+
 [![Wires for Brushes](https://i.ytimg.com/vi/w-qEDNoe-Ts/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCE9zo9IormzS37h9XVvYAvXGR6xA)](https://youtu.be/w-qEDNoe-Ts)
