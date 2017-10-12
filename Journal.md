@@ -16,6 +16,8 @@
 		* [Step 4 - Building the shaft support & magnet brackets](#i-step-4)
 		* [Step 5 - Assembly](#i-step-5)
 
+----------------------------------------------------------------------------------------------------------
+
 # What is Markdown?<a name = "what-is-markdown?">
 Markdown is basically a way to create a text document, then edit and styalize it using syntax for display on the web.
 For example using '*Hello*' in the text editor will look like *Hello* on the web.
@@ -29,7 +31,7 @@ This allows for the text to be edited by the created in any way desired without 
 * `##Header` will create a header like the top of this list
 * `###Header` will make a third level header, and so on.
 * `>This symbol can be used to make quotes` >This symbol can be used to make quotes
-* Using the `'` Symbol allows for *Italic* to be shown as `*Italic*` (`'*Italic*'`)
+* Using the ``` ` ``` Symbol allows for *Italic* to be shown as `*Italic*` (``` `*Italic*` ```)
 * Create lists using `*`, `1.` or `-`:
 
 * One
@@ -91,14 +93,14 @@ Then the following commands were entered:
 * `tts = ALProxy("ALTextToSpeech", "localhost", 9559)` - this enables the text to speach and assigns
 .. it `tts`
 * finally Chapman can be made to say anything by inputing `tts.say("Input Text Here")`
-<a name = "connecting">
+
 # Building a DC motor<a name = "building-a-dc-motor">
 ## Part I - Building a brushed DC motor<a name = "part-i">
 The aim of this part is to create a DC motor. For this we have:
-* Comakingape
-* Pa-talkper Clips
+* Tape
+* Paper Clips
 * 10m Copper Wire
-* 2 nails
+* 2 Nails
 
 ### Step 1 - Building the commutator<a name = "i-step-1">
 The commutator is the moving part of the motor that will rotate within the magnetic field. This was started by placing copper
@@ -107,14 +109,14 @@ to two ends of the copper wire, and will be used to reverse the current.
 
 _The image below shows the commutator with 1 long strip of copper tape rather than 2 pieces of tape before it was created_
 ![Step 1 <a name = "building a DC motor">Image][Image1]
-<a name = "part-I">
+
 [Image1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_092122.jpg "Commutator with copper tape"
 
 ### Step 2 - Support Shaft<a name = "i-step-2">
 A support shaft for the commutator was made using two nails placed into the two ends of the cork. This will allow the commutator
 to move freely when placed on a support.
 ![Step 2 Image 1][Image2]
-<a name = "step-1">
+
 [Image2i-]: https://github.com/NodrogJRB/ROCO222/commit/867ef6f2d274338247e842fc8fdd3f470fddd7d8
 
 Tape was then added around the copper tape to better hold it in place:
@@ -160,3 +162,36 @@ same direction and attracting to one another.
 ![Step 5 Image][Image7]
 
 [Image7]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_102626.jpg
+
+## Part II - Testing the Motor<a name = "part-ii">
+### Step 1 - Finish the motor<a name = "ii-step-1">
+In order to apply power to the commutator, cables currently be directly attached to the coil as this would obviously prevent the
+commutator from rotating. Therefore whatever wire was used had to touch, but not be fixed to, the commutator. The copper tape that
+was used gives a greater surface are of contact, to help remain contact to the power.
+
+Firstly we attempted to use wire to act as "brushes" for the motor, by connecting a cable to the power supply and to a thinner wire
+with crocodile clips. As the wire was thin it had some degree of freedom to be able to use as brushes.
+
+The powersupply had a current limit of 2A. This was to prevent the current exceding this as this could cause the wire to overheat and
+eather melt or damage other components. Although the coil acts as a resistor, it only has a small resistance, and therefore only
+limits the current a small amount and therefore has the potential to overheat.
+
+### Step 2 - Test the motor<a name = "ii-step-2>
+When testing the motor, we did manage to get the commutator to rotate. However as the wires had thin ends, they were prone to getting
+caught on the copper wire and on the copper tape. This therefore would occasionally make the motor stop functioning.
+[![Wires for Brushes](https://i.ytimg.com/vi/h_XL3oUzkJ0/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAhPxmyG7wNc13GnRAhXZp_5Zwszw)](https://youtu.be/h_XL3oUzkJ0)
+
+To combat this we decided to use copper tape instead, as not only were they more flexible and therefore less likely to catch on
+anything, they also have a large surface area, therefore increasing the contact surface area. Using this proved to be much more
+efficient.
+[![Wires for Brushes](https://i.ytimg.com/vi/ZZyAr5DxDUE/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC70ZVwAxRvrgzwBlnllurMBPzigQ)](https://youtu.be/ZZyAr5DxDUE)
+
+It can also be seen from the video above that the higher the voltage, the higher the RPM of the motor.
+
+After we got the motor working, we then tested how the motor acted when one of the magnets was rotated the opposite way, therefore
+repelling each other. This seemed to create a conflict with the motor, and caused it to vibrate viciously as it rapidly tried to
+rotate both ways at the same time.
+[![Wires for Brushes](https://i.ytimg.com/vi/hRVDDwe9pTM/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAehmlFknGsCWHCK0PS9kWYAhlAIg)](https://youtu.be/hRVDDwe9pTM)
+
+When the motor was functioning, it could be seen that on the powersupply both the current *and* the voltage were fluctuating:
+[![Wires for Brushes](https://i.ytimg.com/vi/w-qEDNoe-Ts/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCE9zo9IormzS37h9XVvYAvXGR6xA)](https://youtu.be/w-qEDNoe-Ts)
