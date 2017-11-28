@@ -9,6 +9,12 @@ Table of Contents
 * [Part II - Hack into a robot](#part-ii)
   1. [Finish the motor](#ii-step-1)
   2. [Test the motor](#ii-step-2)
+* [Part III - A better DC motor](#part-iii)
+  1. [Building the commutator](#iii-step-1)
+  2. [Add support Shaft](#iii-step-2)
+  3. [Winding the armature coil](#iii-step-3)
+  4. [Building the shaft support and magnet brackets](#iii-step-4)
+  5. [Build the baseplate](#iii-step-5)
 
 Practical 2: Build a DC motor
 ==============================================
@@ -95,7 +101,7 @@ The powersupply had a current limit of 2A. This was to prevent the current exced
 eather melt or damage other components. Although the coil acts as a resistor, it only has a small resistance, and therefore only
 limits the current a small amount and therefore has the potential to overheat.
 
-### Step 2 - Test the motor<a name = "ii-step-2>
+### Step 2 - Test the motor<a name = "ii-step-2">
 When testing the motor, we did manage to get the commutator to rotate. However as the wires had thin ends, they were prone to getting
 caught on the copper wire and on the copper tape. This therefore would occasionally make the motor stop functioning.
 
@@ -121,3 +127,32 @@ When the motor was functioning, it could be seen that on the powersupply both th
 
 Part III - A better DC motor<a name = "part-iii">
 -------------------------------------------------
+When developing and improving the motor we decided to 3D print the parts.
+
+### Step 1 - Building the commutator<a name = "iii-step-1">
+The commutator we made for this we designed it to use 2 coils as apposed to the previous 1. This allowed for more torque to be generate
+within the motor. This allows for one coil to always be cutting accross the magnetic field and therefore generate torque to rotate.
+
+Next time however we would choose to use 3 or more coils, as the would ensure that a coil is always at an angle, in the current case of
+only 2 coils it often needs a little push to get going.
+
+### Step 2 - Add support Shaft<a name = "iii-step-2">
+The support shaft for this was 3D printed as part of the commutator. This proved to be difficult practically when printing the
+commutator.
+  
+When doing this again we would use a different material as the support shaft through the commutator as this would help increase the magnetic field and therefore increase the torque and efficiency of the motor.
+
+### Step 3 - Winding the armature coil<a name = "iii-step-3">
+For this commutator we only used around 50 turns for the coils. The proved to be very inefficent and therefore the motor is increadbly weak. Next time would add many more turns to this (as witht the original with around 130 turns).
+
+### Step 4 - Building the shaft support and magnet brackets<a name = "iii-step-4">
+We did want to 3D print the components of this however due to technical issues with the printer we were using we were unable to do so.
+We did, however, mangage to print most of the brackets to support the the shaft.
+  
+On the brackets we used bearings to allow the motor to smoothly rotate on its axis. The magnets, due to the lack of printing the parts,
+had to remain supported by the paper clips from the original design.
+
+### Step 5 - Build the baseplate<a name = "iii-step-5">
+Everything was re assembled onto the same wooden baseplate as before. Two strips of copper tape were used as brushes pressed against the
+commutator.
+If I was to redesign this I would create brackets to hold the brushes closer and firmer to the commutator.
