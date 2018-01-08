@@ -209,6 +209,7 @@ ben@b-gordon:~$ rostopic list
 Part II - 3D model of your arm
 ==============================
 Step 1 - Visualise an existing URDF file in RViz
+------------------------------------------------
 
 Firstly I created a directory for the robot then a sub-directory for the models. Within this folder I created a new file 
 `robot-arm.urdf`:
@@ -268,9 +269,30 @@ ben@b-gordon:~$ rosrun joint_state_publisher joint_state_publisher _use_gui:=tru
 ```
 
 This then opens up a gui:
-<insert pic>
+***insert pic***
 
 Then a robot model visualisation needs to be added to RViz:
-<another pic>
-  
- 
+*** another pic***
+
+Step 2 - Create the URDF file of your robot
+-------------------------------------------
+The next step is, using the *robot-arm.urdf* as a template, to create a new file in order to
+visualise the robot arm we have created within rviz.
+
+The first step was to make a **part** for each of the sections of the arm. In our case there's:
+* **2x Claws**
+* **1x Claw Arm Segment**
+* **2x Standard Arm Segments**
+* **1x Upper Base**
+* **1x Lower Base**
+
+The next step is creating the joints which will join all the sections together. For this 
+6 Joints are required:
+* **1 joinging the lower to upper base**
+* **1 joining the first arm to the base**
+* **2 joining the 3 Arm segments together**
+* **2 joining the claws to the claw arm** ***(which will be controlled together by 1 servo)***
+
+
+Part III - Control the servo-motors from the robot's joint state
+================================================================
