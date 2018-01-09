@@ -113,6 +113,10 @@ ben@b-gordon:~$ rviz
 
 </p></details>
 
+![I_Step 3 Image 1][I_3_1]
+
+[I_3_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/I_3_1.png?raw=true
+
 Step 4 - Configure ROS for the Arduino
 --------------------------------------
 For the arduino board, the cable needs to be used as a serial bridge as the board does not have an ethernet port `rosserial` can be used to do this for ROS messages.
@@ -334,10 +338,22 @@ ben@b-gordon:~$ rosrun joint_state_publisher joint_state_publisher _use_gui:=tru
 ```
 
 This then opens up a gui:
-***insert pic***
+
+![II_Step 1 Image 1][II_1_1]
+
+[II_1_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_1.png?raw=true
+
 
 Then a robot model visualisation needs to be added to RViz:
-***another pic***
+
+![II_Step 1 Image 2][II_1_2]
+
+![II_Step 1 Image 3][II_1_3]
+
+[II_1_2]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_2.png?raw=true
+[II_1_3]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_3.png?raw=true
+
+
 
 Step 2 - Create the URDF file of your robot
 -------------------------------------------
