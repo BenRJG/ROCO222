@@ -32,27 +32,27 @@ tape on opposite sides of the cork, ensuring to leave a gab between each strip. 
 to two ends of the copper wire, and will be used to reverse the current.
 
 _The image below shows the commutator with 1 long strip of copper tape rather than 2 pieces of tape before it was created_
-![Step 1 <a name = "building a DC motor">Image][Image1]
+![Step 1 Image 1][I_1_1]
 
-[Image1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_092122.jpg "Commutator with copper tape"
+[I_1_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%201%20-%201.jpg?raw=true "Commutator with copper tape"
 
 ### Step 2 - Add support Shaft<a name = "i-step-2">
 A support shaft for the commutator was made using two nails placed into the two ends of the cork. This will allow the commutator
 to move freely when placed on a support.
-![Step 2 Image 1][Image2]
+![Step 2 Image 1][I_2_1]
 
-[Image2i-]: https://github.com/NodrogJRB/ROCO222/commit/867ef6f2d274338247e842fc8fdd3f470fddd7d8
+[I_2_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%202%20-%201.jpg?raw=true
 
 Tape was then added around the copper tape to better hold it in place:
-![Step 2 Image 2][Image 3]
+![Step 2 Image 2][I_2_2]
 
-[Image3]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_093243.jpg
+[I_2_2]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%202%20-%202.jpg?raw=true
 
 ### Step 3 - Winding the armature coil<a name = "i-step-3">
 This was the step that took the longest! A coil was wraped lengthways around the cork forming a coil.
 It was recomended<a name = "I-step-2"> for this that the coil had 60 turns minimum and we managed aroudn 139 turns (give or take 2 or 3
 due to the monotonus of counting the turns whilst wrapping).
-![Step 3 Image 1][Image4]
+![Step 3 Image 1][I_3_1]
 
 Both ends of the wire were left free at the top (end with copper tape), then each end was soldered onto one of the two pieces of
 copper tape. This is how the current will flow through the coil.
@@ -60,19 +60,18 @@ Due to the enamal on the copper wire preventing elctricity from conduction throu
 the ends before soldering.
 
 The resistance of the coild was measured at =~7 ohms.
-![Step 3 Image 2][Image5]
+![Step 3 Image 2][I_3_2]
 
-[Image4]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_100120.jpg
-[Image5]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_101433.jpg
-
+[I_3_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%203%20-%201.jpg?raw=true
+[I_3_2]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%203%20-%202.jpg?raw=true
 ### Step 4 - Building the shaft support and magnet brackets<a name = "i-step-4">
 The shaft support was made by using two paper clips, and stretching out one end, and curling it round into a small loop as shown
 in the image. This will later create an ideal support for the twon nails used as a support shaft.
 
 The magnet bracket was made by simply bending the paper clip into an L-shape.
-![Step 4 Image][Image6]
+![Step 4 Image][I_4_1]
 
-[Image6]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_101714.jpg
+[I_4_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%204%20-%201.jpg?raw=true
 
 ### Step 5 - Build the baseplate<a name = "i-step-5">
 Firstly the wooden base needed to be evenly devided horizontally and vertically (which we didn't need to do as it was already
@@ -83,9 +82,9 @@ these.
 The two magnet brackets were attached width ways, at a 90° to the commutator. Two of each of the magnets were then put onto the
 brackets, which could support themselves due to their magnetic strength. These were attached so that all the magnets were in the
 same direction and attracting to one another.
-![Step 5 Image][Image7]
+![Step 5 Image][I_5_1]
 
-[Image7]: https://github.com/NodrogJRB/ROCO222/blob/master/Images/20171002_102626.jpg
+[I_5_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/I%20-%205%20-%201.jpg?raw=true
 
 Part II - Hack into a robot<a name = "part-ii">
 -----------------------------------------------
@@ -105,13 +104,19 @@ limits the current a small amount and therefore has the potential to overheat.
 When testing the motor, we did manage to get the commutator to rotate. However as the wires had thin ends, they were prone to getting
 caught on the copper wire and on the copper tape. This therefore would occasionally make the motor stop functioning.
 
-[![Wires for Brushes](https://github.com/NodrogJRB/ROCO222/blob/master/Images/Thumbnail_1.png)](https://youtu.be/h_XL3oUzkJ0)
+[![Wires for Brushes][II_2_1(T)]][II_2_1(V)]
+
+[II_2_1(T)]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/Thumbnails/II_2_1.png?raw=true
+[II_2_1(V)]: https://youtu.be/h_XL3oUzkJ0
 
 To combat this we decided to use copper tape instead, as not only were they more flexible and therefore less likely to catch on
 anything, they also have a large surface area, therefore increasing the contact surface area. Using this proved to be much more
 efficient.
 
-[![Tape for Brushes](https://github.com/NodrogJRB/ROCO222/blob/master/Images/Thumbnail_2.png)](https://youtu.be/ZZyAr5DxDUE)
+![Tape for Brushes][II_2_2(T)]][II_2_2(V)]
+
+[II_2_2(T)]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/Thumbnails/II_2_2.png?raw=true
+[II_2_2(V)]: https://youtu.be/ZZyAr5DxDUE
 
 It can also be seen from the video above that the higher the voltage, the higher the RPM of the motor.
 
@@ -119,11 +124,17 @@ After we got the motor working, we then tested how the motor acted when one of t
 repelling each other. This seemed to create a conflict with the motor, and caused it to vibrate viciously as it rapidly tried to
 rotate both ways at the same time.
 
-[![Opposing Magnets](https://github.com/NodrogJRB/ROCO222/blob/master/Images/Thumbnail_3.png)](https://youtu.be/hRVDDwe9pTM)
+[![Opposing Magnets][II_2_3(T)]][II_2_3(V)]
+
+[II_2_3(T)]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/Thumbnails/II_2_3.png?raw=true
+[II_2_3(V)]: https://youtu.be/hRVDDwe9pTM
 
 When the motor was functioning, it could be seen that on the powersupply both the current *and* the voltage were fluctuating:
 
-[![Alternating Voltage](https://github.com/NodrogJRB/ROCO222/blob/master/Images/Thumbnail_4.png)](https://youtu.be/w-qEDNoe-Ts)
+[![Alternating Voltage][II_2_4(T)]][II_2_4(V)]
+
+[II_2_4(T)]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/Thumbnails/II_2_4.png?raw=true
+[II_2_4(V)]: https://youtu.be/w-qEDNoe-Ts
 
 Part III - A better DC motor<a name = "part-iii">
 -------------------------------------------------
