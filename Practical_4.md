@@ -2,12 +2,14 @@ Step 1 - Install the motor shield
 ---------------------------------
 Installing the motor shield is a simple task, it simply involves lining the shield up with the board so that the pins from the shield
 fit into the board.
-***Motor Shield Pic***
+![I_Part 1 Image 1][I_1_1]
+
+[I_1_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_4/I_1_1.jpg?raw=true
 
 Step 2 - Control a small hobby DC motor
 ---------------------------------------
 The motor shield can be used to control a stepper motor. Below shows the setup of this:
-***Motor connected to board***
+
 
 The below example code can then be used to make the motor rotate:
 ```cpp
