@@ -244,15 +244,18 @@ ben@b-gordon:~$ rosrun rosserial_python serial_node.py /dev/ttyACM2
 
 `rostopic` can then be used to publish the specified value to the board in order to make the motor turn (0-180):
 ```console
-ben@b-gordon:~$ rostopic pub /servo std_msgs/UInt16 "data: 180"
+ben@b-gordon:~$ rostopic pub /servo std_msgs/UInt16 "data: 0"
 publishing and latching message. Press ctrl-C to terminate
 ^C  
 ben@b-gordon:~$ 
-ben@b-gordon:~$ rostopic pub /servo std_msgs/UInt16 "data: 0"
+ben@b-gordon:~$ rostopic pub /servo std_msgs/UInt16 "data: 1800"
 publishing and latching message. Press ctrl-C to terminate
 
 ```
-Here I made the servo rotate to 180 degrees then to 0 degrees.
+
+[![PartIII video](https://i.ytimg.com/vi/Ndkt1RIQ37k/sddefault.jpg)](https://youtu.be/Ndkt1RIQ37k)
+
+Here I made the servo rotate to 0 degrees then to 180 degrees.
 Below shows the new topic created for this use:
 ```console
 ben@b-gordon:~$ rostopic list
@@ -334,7 +337,7 @@ This then opens up a gui:
 ***insert pic***
 
 Then a robot model visualisation needs to be added to RViz:
-*** another pic***
+***another pic***
 
 Step 2 - Create the URDF file of your robot
 -------------------------------------------
