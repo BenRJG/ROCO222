@@ -113,7 +113,7 @@ To combat this we decided to use copper tape instead, as not only were they more
 anything, they also have a large surface area, therefore increasing the contact surface area. Using this proved to be much more
 efficient.
 
-![Tape for Brushes][II_2_2(T)]][II_2_2(V)]
+[![Tape for Brushes][II_2_2(T)]][II_2_2(V)]
 
 [II_2_2(T)]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/Thumbnails/II_2_2.png?raw=true
 [II_2_2(V)]: https://youtu.be/ZZyAr5DxDUE
@@ -156,10 +156,20 @@ When doing this again we would use a different material as the support shaft thr
 ### Step 3 - Winding the armature coil<a name = "iii-step-3">
 For this commutator we only used around 50 turns for the coils. The proved to be very inefficent and therefore the motor is increadbly weak. Next time would add many more turns to this (as witht the original with around 130 turns).
 
+![Step 3 Image 1][III_3_1]
+
+[III_3_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/III_3_1.JPG?raw=true "New Motor Design"
+
 ### Step 4 - Building the shaft support and magnet brackets<a name = "iii-step-4">
 We did want to 3D print the components of this however due to technical issues with the printer we were using we were unable to do so.
 We did, however, mangage to print most of the brackets to support the the shaft.
-  
+*We then later printed the support shafts for the magnets when we had time*
+
+![Step 4 Image 1][III_4_1]
+
+[III_4_1]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_2/III_4_1.JPG?raw=true "Added Supports"
+
+
 On the brackets we used bearings to allow the motor to smoothly rotate on its axis. The magnets, due to the lack of printing the parts,
 had to remain supported by the paper clips from the original design.
 
