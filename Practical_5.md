@@ -21,10 +21,66 @@ This is then connected to the board like so:
 Step 2 - Initial Program
 ------------------------
 Below is the initial program created to control the stepper motor:
+
+<details><summary> Initial Code </summary><p>
+
 ```cpp
-//Code snippet
-bla bla
+#define DIR_A 12
+#define PWM_A 3
+
+#define DIR_B 13
+#define PWM_B 11
+
+#define MAX 255
+
+unsigned int speed = 5; //Min = 2
+
+//Channel A is 12 & 9 ; Speed is 3
+//Channel B is 13 & 8 ; Speed is 11
+
+void turn(){
+    analogWrite(PWM_A,MAX);
+    analogWrite(PWM_B,0);
+    delay(speed);
+    
+    analogWrite(PWM_A,0);
+    analogWrite(PWM_B,MAX);
+    delay(speed);
+}
+
+void rotate(unsigned int step){
+   unsigned int i;
+   for(i=0;i<(step);i++){
+    digitalWrite(DIR_A,HIGH);
+    digitalWrite(DIR_B,HIGH);
+    
+    turn();
+    
+    digitalWrite(DIR_A,LOW);
+    digitalWrite(DIR_B,LOW);
+    
+    turn();
+   }
+}
+
+void setup() {
+    //Setup Channel A
+    pinMode(DIR_A, OUTPUT);
+    
+    pinMode(DIR_B, OUTPUT);
+}
+
+
+
+void loop() {
+    //forward at full speed
+  rotate(50);
+  while(1);
+    
+}
 ```
+
+</p></details>
 
 Step 3 - Programming of modes
 -----------------------------
