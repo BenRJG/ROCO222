@@ -177,3 +177,6 @@ had to remain supported by the paper clips from the original design.
 Everything was re assembled onto the same wooden baseplate as before. Two strips of copper tape were used as brushes pressed against the
 commutator.
 If I was to redesign this I would create brackets to hold the brushes closer and firmer to the commutator.
+  
+ A video showing this working is showb below:
+ [![III_Step 4 Video 1](https://i.ytimg.com/vi/wWGUu8mAfnQ/sddefault.jpg)](https://youtu.be/wWGUu8mAfnQ)
