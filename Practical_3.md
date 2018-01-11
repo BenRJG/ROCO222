@@ -77,6 +77,9 @@ void blink() {
 ```
 I also added some extra code to output to a terminal when triggered. 
 
+The proof of this code working and flashing the LED is shown below:
+[![II_Step 2 Video 1](https://i.ytimg.com/vi/vn7QSk69KVY/sddefault.jpg)](https://youtu.be/vn7QSk69KVY)
+
 Step 3 - Calculate the angular velocity of your motor
 ------------------------------------------------------
 This is where we began to have issues as although the encoder worked perfectly fine, when the motor was turned on the counter began
